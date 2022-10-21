@@ -1,8 +1,10 @@
-
-const a =prompt("Enter the first number a");
-const b =prompt("Enter the second number b");
-const c1 = (Number(a)+Number(b))
-const c2 = (Number(a)-Number(b))
-const c3 = (Number(a)*Number(b))
-const c4 = (Number(a)/Number(b))
-alert(a+'+'+b+'='+c1+';'+"\n" + a+'-'+b+'='+c2+';'+"\n"+a+'*'+b+'='+c3+';'+"\n"+a+'/'+b+'='+c4+';')
+const numberA = prompt("Enter the first number a");
+const numberB = prompt("Enter the second number b");
+const sum = (Number(numberA) + Number(numberB))
+const subtraction = (Number(numberA) - Number(numberB))
+const multiplication = (Number(numberA) * Number(numberB))
+const division = (Number(numberA) / Number(numberB))
+alert(numberA + '+' + numberB + '=' + sum + ';' + "\n"
+    + numberA + '-' + numberB + '=' + subtraction + ';' + "\n"
+    + numberA + '*' + numberB + '=' + multiplication + ';' + "\n"
+    + numberA + '/' + numberB + '=' + division + ';')
